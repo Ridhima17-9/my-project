@@ -1,0 +1,87 @@
+The project involves designing a banking dashboard that displays:
+
+Current balance
+
+Deposit button
+
+Withdraw button
+
+The interface should:
+
+Look visually clean and well-aligned.
+
+Be centered on the page.
+
+Adjust layout responsively for different screen sizes (mobile, tablet, desktop).
+
+ HTML Structure Features
+<div class="outer_box">:
+This acts as the main container, keeping the content centered and padded nicely on the screen.
+
+<div class="inner_box">:
+This section contains the main content, including the balance and two action buttons (Deposit, Withdraw).
+
+<h1>$0</h1>:
+Displays the current account balance.
+
+<button>:
+Two separate buttons for:
+
+Deposit
+
+Withdraw
+
+CSS Styling Highlights
+Body Styling:
+
+Background color is light grey (#e0e0e0) for a soft, modern look.
+
+Uses flexbox to center the form both vertically and horizontally (justify-content: center, align-items: center).
+
+height: 100vh ensures full screen coverage.
+
+Outer Box (outer_box):
+
+Acts as a wrapper with padding and rounded corners.
+
+Includes a subtle box shadow for depth.
+
+Gives the interface a card-like appearance.
+
+Inner Box (inner_box):
+
+Holds the balance and buttons in a center-aligned column layout.
+
+White background to contrast with the outer box.
+
+Additional padding and border-radius for a soft UI look.
+
+Typography and Colors:
+
+Headline (h1) uses a dark grey color (#333) for good readability.
+
+Font is clean and professional (Arial, sans-serif).
+
+Buttons:
+
+Deposit button is green (#28a745) – signals a positive action.
+
+Withdraw button is red (#dc3545) – signals a deduction.
+
+Buttons are rounded with padding for better touch usability.
+
+ Responsive Design Aspects
+The use of flexbox allows the form to remain centered across all device sizes.
+
+Text and buttons are scalable and spaced with margins and paddings.
+
+The design automatically adjusts based on the screen without any media queries due to the flexible layout.
+
+ Use Case / Application
+This layout is perfect as a starting point for a banking or finance web app.
+
+Can later be extended with JavaScript to:
+
+Update balance
+Handle actual deposit/withdrawal logic
+Store transaction history.
