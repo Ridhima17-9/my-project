@@ -1,0 +1,81 @@
+The main objective of this project is to design a fully responsive and visually appealing Admin Dashboard using HTML and CSS Grid layout techniques. Additionally, the dashboard includes a theme switching feature that allows users to toggle between light and dark modes without refreshing the page. This functionality enhances the user experience, making the interface both modern and accessible.
+
+Task Description:
+The dashboard is organized into four primary sections, all structured using CSS Grid:
+
+1. Header
+Contains:
+A title: Admin Dashboard
+A theme toggle button labeled Dark Theme (changes to Light Theme on click)
+
+Purpose:
+
+Provides a fixed top bar for branding and user interaction
+
+Allows users to control the interface theme (light/dark) with a seamless experience
+
+2. Sidebar
+Contains:
+
+A vertical navigation menu with links to:
+Home
+Users
+Settings
+
+Purpose:
+
+Serves as the main navigation area for the dashboard
+Visually distinguished using CSS Grid and border styling
+
+3. Main Content Area
+Contains:
+
+A welcome heading: Welcome Admin!
+Placeholder content that could later include:
+
+Charts
+Reports
+Widgets
+Purpose:
+
+Represents the functional center of the dashboard where most data and features will be displayed
+
+4. Footer
+Contains:
+
+A simple line of text:
+© 2025 Admin Dashboard. All rights reserved.
+
+Purpose:
+
+Concludes the dashboard layout
+Provides legal or ownership information
+
+Layout Details (Using CSS Grid):
+The entire dashboard is structured using a 2-column CSS Grid layout.
+
+Grid behavior:
+
+Header and Footer: Span both columns using grid-column: 1 / span 2
+Sidebar (nav): Occupies the left column
+Main Content: Occupies the right column
+height: 100vh;: Ensures the layout covers the full viewport height
+
+Responsiveness:
+
+Layout adapts gracefully to various screen sizes
+Maintains readability and usability on smaller devices
+
+Theme Switching Functionality:
+Triggered by:
+Clicking the button with ID themebutton
+
+
+Conclusion:
+This project successfully demonstrates the integration of:
+
+Modern layout techniques using CSS Grid
+
+Semantic web development practices
+
+
