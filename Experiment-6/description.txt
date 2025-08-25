@@ -1,0 +1,49 @@
+# Technologies Used:
+
+* HTML5 – Canvas element and page structure.
+* CSS3 – Layout, alignment, shadows, hover effects, and responsive design.
+* JavaScript – Drawing logic (mouse-based) and clear functionality.
+
+# Project Overview:
+
+* A simple Drawing Tool created using HTML5 Canvas and JavaScript.
+* Users can draw freely on the canvas with the mouse and clear the canvas anytime with a button.
+* Useful in sketching apps, online teaching tools, and design boards.
+* The interface is built with a modern, centered layout and responsive styling for better usability.
+
+# Structure:
+
+* Drawing Functionality:
+Drawing implemented using mouse events (mousedown, mousemove, mouseup).
+Canvas listens to cursor position and creates smooth lines with adjustable properties like color, width, and stroke style.
+
+* Header:
+Title of the project (“Virappan’s Drawing Tool”) placed above the canvas in a styled container.
+
+* Canvas:
+Main drawing area where the user sketches with the mouse.
+Designed with borders, shadows, and visible outlines for clarity.
+
+* Toolbar (Clear Button):
+A button provided to reset the canvas.
+Styled with hover and active effects for an interactive experience.
+
+* Clear Functionality:
+Clears the entire drawing area using JavaScript.
+Instantly resets the canvas back to its blank state.
+
+# Learning Outcomes:
+
+* Learned how to work with the HTML5 Canvas API for graphics.
+* Understood the use of mouse events to enable real-time drawing.
+* Explored modern CSS styling (gradients, shadows, responsive layouts).
+* Practiced clean project structure by separating HTML, CSS, and JavaScript.
+* Learned how to reset and update canvas elements programmatically.
+
+# Key Concepts:
+
+* HTML5 Canvas Drawing
+* Mouse Event Handling (mousedown, mousemove, mouseup)
+* Line Styling (color, width, round edges)
+* DOM Manipulation with JavaScript
+* Responsive & Modern CSS UI Design
