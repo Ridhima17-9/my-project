@@ -1,0 +1,16 @@
+{
+  "name": "employee-cli",
+  "version": "1.0.0",
+  "description": "CLI Employee Management System",
+  "main": "employee-management.js",
+  "scripts": {
+    "start": "node employee-management.js",
+    "dev": "nodemon employee-management.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}

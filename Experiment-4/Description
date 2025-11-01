@@ -1,0 +1,38 @@
+# Purpose:
+
+This feature shows how many characters a user types in a text area — instantly.
+
+# How It Works:
+
+* You type in a box (textarea).
+* A number below it shows the live character count.
+* It updates every time you type or delete.
+* It counts everything: letters, spaces, numbers, and symbols.
+* If nothing is typed, it shows 0.
+
+# Examples:
+
+* "World" → 5
+* "AI Model" → 8
+* " " (3 spaces) → 3
+* "" (empty) → 0
+
+# Behind the Scenes (Steps):
+
+* User types in a <textarea>.
+* JavaScript listens using input event.
+* It checks length using .length.
+* Updates a <span> to show the count.
+
+# Why It’s Useful:
+
+* No page reload needed.
+* Used in social media posts, feedback forms, etc.
+* Helps users know character limits.
+
+# What You Learn:
+
+* Basic HTML + JavaScript
+* Live DOM updates
+* Event handling (addEventListener)
+* Real-world use like Twitter, message boxes

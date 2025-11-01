@@ -1,0 +1,47 @@
+# Technologies Used:
+
+* HTML5 – Structure of product list and dropdown menu.
+* CSS3 – Styling of container, dropdown, and product cards in a grid layout.
+* JavaScript – Filtering functionality for showing/hiding products dynamically.
+
+# Project Overview:
+
+* A Dynamic Product Filtering System where users select a category (Clothing, Electronics, Books, etc.) and the displayed product list updates instantly.
+* The main goal is to practice real-time DOM manipulation using data attributes for categorization.
+* This feature is widely used in e-commerce websites (like Amazon, Flipkart) for product filtering.
+
+# Structure:
+
+* Dropdown Menu (Filter Control):
+Provides category options (All, Clothing, Electronics, Books).
+Connected to JavaScript to trigger filtering whenever the user changes the category.
+
+* Product List (Grid of Items):
+Products displayed as cards with category attributes.
+Helps identify and filter items according to the selected option.
+
+* JavaScript Filtering Functionality:
+Captures selected category from dropdown.
+Loops through all products and hides those that don’t match.
+If “All” is selected, every product is shown.
+
+* CSS Styling:
+Products styled as cards in a neat grid layout.
+Dropdown styled with padding, spacing, and hover effects.
+Product cards have shadows, borders, and spacing for a modern look.
+
+# Learning Outcomes:
+
+* Learned how to use data attributes in HTML for product categorization.
+* Understood real-time DOM manipulation with JavaScript.
+* Practiced implementing event listeners for dropdown interaction.
+* Improved CSS skills by designing responsive product cards and grids.
+* Gained exposure to a real-world e-commerce feature.
+
+# Key Concepts:
+
+* DOM Selection & Manipulation
+* Data Attributes for categorization
+* Dropdown Event Handling
+* Dynamic Show/Hide of elements
+* Responsive CSS Card Design
